@@ -1,7 +1,7 @@
 Write-Output Specification Script.
 CD\
 MKDIR _SiA
-cd _SiA
+Set-Location _SiA
 Write-Output Username:$env:UserName >>c:\_SiA\"$env:computername".txt
 Write-Output Domain:$env:UserDomain >>c:\_SiA\"$env:computername".txt
 Write-Output Display Name:>>C:\_SiA\"$env:computername".txt
