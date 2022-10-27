@@ -1,6 +1,7 @@
 Write-Output Specification Script.
 CD\
 MKDIR _SiA
+cd _sia
 Write-Output Username: %username% >>C:\_SiA\"$env:computername".txt
 Write-Output Display Name:>>C:\_SiA\"$env:computername".txt
 whoami /fqdn >>C:\_SiA\"$env:computername".txt
