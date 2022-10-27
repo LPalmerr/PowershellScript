@@ -2,8 +2,8 @@ Write-Output Specification Script.
 CD\
 MKDIR _SiA
 Set-Location _SiA
-Write-Output Username:$env:UserName >>c:\_SiA\"$env:computername".txt
-Write-Output Domain:$env:UserDomain >>c:\_SiA\"$env:computername".txt
+Write-Output Username:$env:UserName >>C:\_SiA\"$env:computername".txt
+Write-Output Domain:$env:UserDomain >>C:\_SiA\"$env:computername".txt
 Write-Output Display Name:>>C:\_SiA\"$env:computername".txt
 whoami /fqdn >>C:\_SiA\"$env:computername".txt
 systeminfo|findstr /i /c:"Host Name" /c:"Registered Owner" /c:"os name" /c:"System Model" /c:"Total Physical Memory" /c:"System Manufacturer" /c:"System Type" /c:"Domain" /c:"original Install Date" /c:"Product ID" /c:"Processor(s)" >>C:\_SiA\"$env:computername".txt
