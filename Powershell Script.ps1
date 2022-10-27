@@ -19,4 +19,3 @@ Get-PhysicalDisk | Format-Table -AutoSize >>C:\_SiA\"$env:computername".txt
 Write-Output SIACaseInfo: >>C:\_SiA\"$env:computername".txt
 Get-CimInstance -ClassName Win32_SystemEnclosure -Namespace 'root\CIMV2' -Property ChassisTypes >>C:\_SiA\"$env:computername".txt
 Get-CimInstance -ClassName Win32_SystemEnclosure -Namespace 'root\CIMV2'>>C:\_SiA\"$env:computername".txt
-
