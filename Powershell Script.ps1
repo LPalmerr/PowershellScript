@@ -4,7 +4,7 @@
 
 
 ## Author         : Lewis
-##  GitHub         : https://github.com/LPalmerr
+##  GitHub        : https://github.com/LPalmerr
 
 
 Write-Output "Spec Script" >>c:\_SiA\"$env:computername".txt
