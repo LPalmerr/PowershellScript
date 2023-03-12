@@ -3,7 +3,7 @@
 #########################################
 
 
-## Author         : Lewis Paler
+## Author         : Lewis
 ##  GitHub         : https://github.com/LPalmerr
 
 
